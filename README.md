@@ -1,6 +1,6 @@
 ## About
 
-elektron.studio is a set of web frameworks and APIs that power virtual performing arts venue http://elektron.live/ and other creative projects made by our residence program.
+elektron.studio is a set of web frameworks and APIs that power virtual performing arts venue http://elektron.live/ and other creative projects made by the elektron residence program.
 
 ## General overview of the platform
 
@@ -19,7 +19,7 @@ The messages contents can be:
 - an encoded image file from the user webcam
 - any data, really
 
-### 2. Video streaming
+### 2. Video broacasting / steaming
 
 There is also a web streaming platform where a **single client** can stream it's video and audio feed to a streaming server and all the other clients will receive the video as a HSL (MP4 for streaming) feed.
 
@@ -40,10 +40,24 @@ Streamkey: `residence`
 
 https://elektron.live/residence
 
-## Getting out the stream
+### 3. Image processing / statistics server
 
-(ask for a full URL in residence chat)
+There is also a server for server-side audience image analysis and statistics gathering at https://elektron.live/area51/ (source code not yet public)
+
+### 4. Video conferencing
+
+There is also an experimental WebRTC-based video conferencing server in the works at https://elektron.live/videotest (the rightmost link).
 
 ## Example client code
 
-There are several codebases and code examples that connect to the elektron.live messaging and broadcasting servers.
+There are code examples that connect to the elektron.live messaging server:
+
+### Max integration
+
+Github: https://github.com/elektronstudio/example_max
+Download: https://github.com/elektronstudio/example_max/archive/master.zip
+
+### Javascript / p5 integration
+
+Github: https://github.com/elektronstudio/example_p5
+Demo: https://codesandbox.io/s/github/elektronstudio/example_p5/tree/master?file=/index.js
