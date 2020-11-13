@@ -41,7 +41,9 @@ Github: https://github.com/elektronstudio/foyer2
 
 Github: https://github.com/elektronstudio/ws
 
-The heart of the elektron.live platform where **clients** are sending _messages_ to the messaging **server** and the server is sending messages back to all other connected **clients**.
+Server instance: `wss://ws-fggq5.ondigitalocean.app`
+
+The heart of the elektron.live platform is a Websocket server where **clients** are sending _messages_ to the **server** and the server is sending messages back to all other connected clients.
 
 > This allows low-bandwith, real-time, two-way syncronizaton of data between each client but is not suitable to high-bandwidth video transmissions
 
@@ -54,11 +56,11 @@ The messages contents can be:
 
 ## 4. Video broacasting / steaming
 
-There is also a web streaming platform where a **single client** can stream it's video and audio feed to a streaming server and all the other clients will receive the video as a HSL (MP4 for streaming) feed.
+There is also a web streaming platform where a client can stream it's video and audio feed to a streaming server and all the other clients will receive the video as a HSL (MP4 for streaming) feed.
 
 > Video streaming is high-bandwith media channel with noticable delay (starting from ~7 seconds until ~30 seconds) so it's not great for two-way realtime communication but great for one-side communication with large audiences. There can be exceptions of course, audience <-> performer interaction could work in some cases.
 
-### Steaming usage
+### Using steaming
 
 We are using the same streamkey for all the URLS and links. Here is the example where streamkey is `residence`:
 
