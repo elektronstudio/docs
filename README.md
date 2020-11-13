@@ -36,7 +36,7 @@ Github: https://github.com/elektronstudio/foyer2
 
 Github: https://github.com/elektronstudio/ws
 
-The heart of the elektron.live platform where **clients** are sending _messages_ to the messaging **server** and the server is sending messages back to all other connected **clients**. The message is also sent back to the original client.
+The heart of the elektron.live platform where **clients** are sending _messages_ to the messaging **server** and the server is sending messages back to all other connected **clients**.
 
 > This allows low-bandwith, real-time, two-way syncronizaton of data between each client but is not suitable to high-bandwidth video transmissions
 
