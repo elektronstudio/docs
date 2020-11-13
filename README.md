@@ -14,6 +14,9 @@ Link: https://elektron.live
 
 Github: https://github.com/elektronstudio/live
 
+> You can set up your own experimentation space to use any kind of indentifier in the URL, for example:
+> https://elektron.live/mysecretspace
+
 ### 2. elektron.live, next generation
 
 #### First prototype
