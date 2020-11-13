@@ -6,9 +6,34 @@ elektron.studio is a set of web frameworks and APIs that power virtual performin
 
 The key pieces of the platform are:
 
-### 1. Message broadcasting
+### 1. elektron.live, current generation
 
-where **clients** are sending _messages_ to the messaging **server** and the server is sending messages back to all other connected **clients**. The message is also sent back to the original client.
+It is the main entrypoint to the platform, it is used both for public events and residence experiments. Implemented in VueJS 3 with no Javascript compiling / bundling.
+
+Link: https://elektron.live
+Github: https://github.com/elektronstudio/live
+
+### 2. elektron.live, next generation
+
+#### First prototype
+
+Implemented in ReactJS
+
+Link: `https://elektron-foyer.netlify.app/`
+Github: `https://github.com/elektronstudio/foyer`
+
+#### Second prototype
+
+Implemented in VueJS and sharing a lot of code with elektron.live. Will be intergrated into the elektron.live in the future
+
+Link: https://elektron-foyer2.netlify.app/
+Github: https://github.com/elektronstudio/foyer2
+
+### 3. Message broadcasting
+
+Github: https://github.com/elektronstudio/ws
+
+The heart of the elektron.live platform where **clients** are sending _messages_ to the messaging **server** and the server is sending messages back to all other connected **clients**. The message is also sent back to the original client.
 
 > This allows low-bandwith, real-time, two-way syncronizaton of data between each client but is not suitable to high-bandwidth video transmissions
 
@@ -19,7 +44,7 @@ The messages contents can be:
 - an encoded image file from the user webcam
 - any data, really
 
-### 2. Video broacasting / steaming
+### 4. Video broacasting / steaming
 
 There is also a web streaming platform where a **single client** can stream it's video and audio feed to a streaming server and all the other clients will receive the video as a HSL (MP4 for streaming) feed.
 
@@ -40,11 +65,11 @@ Streamkey: `residence`
 
 https://elektron.live/residence
 
-### 3. Image processing / statistics server
+### 5. Image processing / statistics server
 
 There is also a server for server-side audience image analysis and statistics gathering at https://elektron.live/area51/ (source code not yet public)
 
-### 4. Video conferencing
+### 6. Video conferencing
 
 There is also an experimental WebRTC-based video conferencing server in the works at https://elektron.live/videotest (the rightmost link).
 
