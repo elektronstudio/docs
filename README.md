@@ -6,7 +6,7 @@ Here are the set of web frameworks and APIs that power virtual performing arts v
 
 The key pieces of the platform are:
 
-## 1. Main homepage for elektron.live, current generation
+## 1. 2D homepage for elektron.live
 
 It is the main entrypoint to the platform, it is used both for public events and residence experiments. Implemented in VueJS 3 with no Javascript compiling / bundling.
 
@@ -17,21 +17,23 @@ Github: https://github.com/elektronstudio/live
 > You can set up your own experimentation space to use any kind of indentifier in the URL, for example:
 > https://elektron.live/mysecretspace
 
-## 2. Main homepage for elektron.live, next generation
+## 2. Experimental 3D homepage for elektron.live
 
 ### First prototype
 
-Implemented in ReactJS
+Implemented in ReactJS.
 
-Link: `https://elektron-foyer.netlify.app/`
+Link: https://elektron-foyer.netlify.app/
 
-Github: `https://github.com/elektronstudio/foyer`
+Github: https://github.com/elektronstudio/foyer
 
 ### Second prototype
 
-Implemented in VueJS and sharing a lot of code with elektron.live. Will be intergrated into the elektron.live in the future
+Implemented in VueJS and sharing a lot of code with elektron.live. Will be intergrated into the elektron.live in the future.
 
 Link: https://elektron-foyer2.netlify.app/
+
+Codesandbox: https://codesandbox.io/s/github/elektronstudio/foyer2?file=/index.js
 
 Github: https://github.com/elektronstudio/foyer2
 
