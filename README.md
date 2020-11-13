@@ -11,6 +11,7 @@ The key pieces of the platform are:
 It is the main entrypoint to the platform, it is used both for public events and residence experiments. Implemented in VueJS 3 with no Javascript compiling / bundling.
 
 Link: https://elektron.live
+
 Github: https://github.com/elektronstudio/live
 
 ### 2. elektron.live, next generation
@@ -20,6 +21,7 @@ Github: https://github.com/elektronstudio/live
 Implemented in ReactJS
 
 Link: `https://elektron-foyer.netlify.app/`
+
 Github: `https://github.com/elektronstudio/foyer`
 
 #### Second prototype
@@ -27,6 +29,7 @@ Github: `https://github.com/elektronstudio/foyer`
 Implemented in VueJS and sharing a lot of code with elektron.live. Will be intergrated into the elektron.live in the future
 
 Link: https://elektron-foyer2.netlify.app/
+
 Github: https://github.com/elektronstudio/foyer2
 
 ### 3. Message broadcasting
@@ -55,6 +58,7 @@ We are using the same streamkey for all the URLS and links. Here is the example 
 #### Video stream upload (ingest)
 
 Stream URL: `rtmp://165.227.149.4:1935/stream`
+
 Streamkey: `residence`
 
 #### Video stream download (broadcast)
@@ -80,9 +84,11 @@ There are code examples that connect to the elektron.live messaging server:
 ### Max integration
 
 Github: https://github.com/elektronstudio/example_max
+
 Download: https://github.com/elektronstudio/example_max/archive/master.zip
 
 ### Javascript / p5 integration
 
 Github: https://github.com/elektronstudio/example_p5
+
 Demo: https://codesandbox.io/s/github/elektronstudio/example_p5/tree/master?file=/index.js
