@@ -2,7 +2,7 @@
 
 Here are the set of web frameworks and APIs that power virtual performing arts venue http://elektron.live/ and other creative projects made by the elektron residence program.
 
-# General overview of the platform
+# Platform overview
 
 The key pieces of the platform are:
 
