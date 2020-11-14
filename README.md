@@ -121,3 +121,9 @@ Github: https://github.com/elektronstudio/example_p5
 Codesandbox demo: https://codesandbox.io/s/github/elektronstudio/example_tonejs?file=/index.js
 
 Github: https://github.com/elektronstudio/example_tonejs
+
+### Javascript / VueJS integration
+
+Codesandbox demo: https://codesandbox.io/s/github/elektronstudio/example_vue
+
+Github: https://github.com/elektronstudio/docs
