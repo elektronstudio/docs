@@ -66,13 +66,13 @@ We are using the same streamkey for all the URLS and links. Here is the example 
 
 **Video stream upload (ingest)**
 
-Stream URL: `rtmp://165.227.149.4:1935/stream`
+Stream URL: `rtmp://***.227.149.4:1935/stream`
 
 Streamkey: `residence`
 
 **Video stream download (broadcast)**
 
-`https://stream.elektron.studio:8443/live/residence.m3u8`
+`https://stream.elektron.studio:****/live/residence.m3u8`
 
 **Event page with video stream**
 
