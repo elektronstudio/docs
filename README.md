@@ -60,35 +60,46 @@ There is also a web streaming platform where a client can stream it's video and 
 
 > Video streaming is high-bandwith media channel with noticable delay (starting from ~7 seconds until ~30 seconds) so it's not great for two-way realtime communication but great for one-side communication with large audiences. There can be exceptions of course, audience <-> performer interaction could work in some cases.
 
-### Using steaming
+### Steaming with our partner server 
 
-We are using the same streamkey for all the URLS and links. Here is the example where streamkey is `residence`:
+Parner server has **~30 sec latency** but **large audience** support.
 
-**Video stream upload (ingest)**
+We use https://babahh.com streaming services that maintain a custom https://flussonic.com server instance.
 
-Stream URL: `rtmp://***.227.149.4:1935/stream`
+We are using the same streamkey for all the URLS and links. Here is the example where streamkey is `residence`.  Note that only one user can upstream at a time, so it's recommended to use a unique stream key for your project.
 
+#### Video upstream
+
+rtmp://o1.babahhcdn.com:1935/bb1150-lo/
+User: elektron
+Pass: (ask pass from @laid / @taavet)
+Stream key: residence
+
+#### Video downstream
+
+rtmp://o1.babahhcdn.com:1935/bb1150-lo/residence
+
+Stream URL: `rtmp://***.227.149.4:1935/stream` (ask url from @kristjan)
 Streamkey: `residence`
 
-**Video stream download (broadcast)**
+### Streaming with our custom server
 
-`https://stream.elektron.studio:****/live/residence.m3u8`
+Custom server has **~7 sec latency** but **small audience** support.
 
-**Event page with video stream**
+Our custom serveris based on Docker image https://github.com/alfg/docker-nginx-rtmp
+
+#### Video upstream
+
+Stream URL: `rtmp://***.227.149.4:1935/stream` (ask url from @kristjan)
+Streamkey: `residence`
+
+#### Video downstream
+
+`https://stream.elektron.studio:****/live/residence.m3u8` (ask url from @kristjan)
+
+### Event page with video stream
 
 https://elektron.live/residence
-
-### Streaming implementation
-
-There are multiple streaming video servers:
-
-#### Custom server
-
-Custom serveris based on Docker image https://github.com/alfg/docker-nginx-rtmp
-
-#### Streaming provider server
-
-We also use https://babahh.com streaming services that maintain a custom https://flussonic.com server instance.
 
 ## 5. Image processing / statistics server
 
