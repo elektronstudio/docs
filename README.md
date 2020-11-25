@@ -73,14 +73,13 @@ We are using the same streamkey for all the URLS and links. Here is the example 
 rtmp://o1.babahhcdn.com:1935/bb1150-lo/
 User: elektron
 Pass: (ask pass from @laid / @taavet)
-Stream key: residence
+Example stream key: residence
 
 #### Video downstream
 
-rtmp://o1.babahhcdn.com:1935/bb1150-lo/residence
+Example stream key: residence
 
-Stream URL: `rtmp://***.227.149.4:1935/stream` (ask url from @kristjan)
-Streamkey: `residence`
+rtmp://o1.babahhcdn.com:1935/bb1150-lo/residence
 
 ### Streaming with our custom server
 
@@ -90,12 +89,12 @@ Our custom serveris based on Docker image https://github.com/alfg/docker-nginx-r
 
 #### Video upstream
 
-Stream URL: `rtmp://***.227.149.4:1935/stream` (ask url from @kristjan)
+Stream URL: `rtmp://165.227.149.4:1935/stream` (ask url from @kristjan)
 Streamkey: `residence`
 
 #### Video downstream
 
-`https://stream.elektron.studio:****/live/residence.m3u8` (ask url from @kristjan)
+`https://stream.elektron.studio:8443/live/residence.m3u8` (ask url from @kristjan)
 
 ### Event page with video stream
 
