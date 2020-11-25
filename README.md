@@ -89,12 +89,15 @@ Our custom serveris based on Docker image https://github.com/alfg/docker-nginx-r
 
 #### Video upstream
 
-Stream URL: `rtmp://165.227.149.4:1935/stream` (ask url from @kristjan)
+Stream URL: `rtmp://165.227.149.4:1935/stream`
+
 Streamkey: `residence`
 
 #### Video downstream
 
-`https://stream.elektron.studio:8443/live/residence.m3u8` (ask url from @kristjan)
+Example stream key: residence
+
+`https://stream.elektron.studio:8443/live/residence.m3u8`
 
 ### Event page with video stream
 
