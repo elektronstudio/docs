@@ -10,6 +10,8 @@ pip3 install websocket-client
 python3 example_chat.py
 ```
 
+Test the result with https://elektron.live/example_python
+
 #### Code
 
 ```py
