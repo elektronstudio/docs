@@ -66,7 +66,7 @@ if __name__ == "__main__":
 
 ```
 pip3 install websocket-client
-python3 example_chat.py
+python3 example_image.py
 ```
 
 Test the result with https://elektron.live/example_python
